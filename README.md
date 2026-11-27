@@ -71,3 +71,28 @@ Marcado visual de actividades de alta exigencia física mediante indicador gráf
 Documentación y Estandarización:
 
 Redacción de especificaciones técnicas y guía de ramas en Markdown.
+
+
+#Ultimas modificaciones
+
+Sitio web estático desarrollado para la práctica de control de versiones con Git y GitHub.
+
+## Tabla de contenidos
+- [Descripción](#descripción)
+- [Mejoras implementadas](#mejoras-implementadas)
+- [Estructura del proyecto](#estructura-del-proyecto)
+
+## Descripción
+Proyecto base en HTML5 que demuestra el flujo de trabajo colaborativo mediante ramas, resolución de conflictos, uso de `.gitignore` e integración mediante Pull Requests en GitHub.
+
+## Mejoras implementadas
+1. **Página de contacto (`contacto.html`):** Desarrollada en la rama `diseñoA` y fusionada con `main`.
+2. **Calendario de actividades (`actividades.html`):** Desarrollado en la rama `DisenoB` con resolución de conflictos en `index.html`.
+3. **Contenido multimedia (`125222871.jpeg`):** Incorporado mediante la rama `feature/imagen` e integrado en `main` a través de un Pull Request en GitHub.
+
+## Estructura del proyecto
+- `index.html`: Página principal del sitio.
+- `contacto.html`: Formulario y datos de contacto.
+- `actividades.html`: Calendario de actividades.
+- `125222871.jpeg`: Recurso gráfico integrado en la página principal.
+- `.gitignore`: Exclusión de archivos temporales y ocultos del sistema (`.DS_Store`).
